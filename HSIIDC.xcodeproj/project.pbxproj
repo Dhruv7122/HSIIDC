@@ -8,22 +8,62 @@
 
 /* Begin PBXBuildFile section */
 		B997EDB02C3E496C00DB0CEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997EDAF2C3E496C00DB0CEC /* AppDelegate.swift */; };
-		B997EDB22C3E496C00DB0CEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997EDB12C3E496C00DB0CEC /* SceneDelegate.swift */; };
 		B997EDB42C3E496C00DB0CEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997EDB32C3E496C00DB0CEC /* ViewController.swift */; };
 		B997EDB72C3E496C00DB0CEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B997EDB52C3E496C00DB0CEC /* Main.storyboard */; };
 		B997EDB92C3E496E00DB0CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B997EDB82C3E496E00DB0CEC /* Assets.xcassets */; };
 		B997EDBC2C3E496E00DB0CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B997EDBA2C3E496E00DB0CEC /* LaunchScreen.storyboard */; };
+		B997EDD02C3E546C00DB0CEC /* SlideImageCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997EDCE2C3E546C00DB0CEC /* SlideImageCVC.swift */; };
+		B997EDD12C3E546C00DB0CEC /* SlideImageCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B997EDCF2C3E546C00DB0CEC /* SlideImageCVC.xib */; };
+		B997EDD52C3E569100DB0CEC /* SildeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997EDD42C3E569100DB0CEC /* SildeModel.swift */; };
+		B997EDD82C3E57E700DB0CEC /* SlideCVWebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997EDD72C3E57E700DB0CEC /* SlideCVWebServices.swift */; };
+		B997EDDC2C3E5DC500DB0CEC /* slideItemList.json in Resources */ = {isa = PBXBuildFile; fileRef = B997EDDB2C3E5DC500DB0CEC /* slideItemList.json */; };
+		B997EDE02C3E5F4A00DB0CEC /* SlideItemsDataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997EDDF2C3E5F4A00DB0CEC /* SlideItemsDataSourceDelegate.swift */; };
+		B997EDE42C3E5FCA00DB0CEC /* AttributeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997EDE22C3E5FCA00DB0CEC /* AttributeFactory.swift */; };
+		B997EDE52C3E5FCA00DB0CEC /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997EDE32C3E5FCA00DB0CEC /* Navigation.swift */; };
+		B997EDEB2C3E621000DB0CEC /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997EDE82C3E621000DB0CEC /* UIViewControllerExtensions.swift */; };
+		B997EDEC2C3E621000DB0CEC /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997EDE92C3E621000DB0CEC /* StringExtension.swift */; };
+		B997EDED2C3E621000DB0CEC /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997EDEA2C3E621000DB0CEC /* UIImageExtension.swift */; };
+		B997EDF32C3E94F700DB0CEC /* GridItemCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997EDF12C3E94F700DB0CEC /* GridItemCVC.swift */; };
+		B997EDF42C3E94F700DB0CEC /* GridItemCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B997EDF22C3E94F700DB0CEC /* GridItemCVC.xib */; };
+		B997EDF82C3E951300DB0CEC /* GridItemList.plist in Resources */ = {isa = PBXBuildFile; fileRef = B997EDF72C3E951300DB0CEC /* GridItemList.plist */; };
+		B997EDFB2C3E960600DB0CEC /* GridItemDataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997EDFA2C3E960600DB0CEC /* GridItemDataSourceDelegate.swift */; };
+		B997EE012C3E972E00DB0CEC /* GridItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997EE002C3E972E00DB0CEC /* GridItemModel.swift */; };
+		B997EE092C3EA45200DB0CEC /* ImpLinkTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997EE072C3EA45200DB0CEC /* ImpLinkTVC.swift */; };
+		B997EE0A2C3EA45200DB0CEC /* ImpLinkTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B997EE082C3EA45200DB0CEC /* ImpLinkTVC.xib */; };
+		B997EE0D2C3EA59500DB0CEC /* ImpLinkDataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997EE0C2C3EA59500DB0CEC /* ImpLinkDataSourceDelegate.swift */; };
+		B997EE112C3EBCB200DB0CEC /* ImpLinksList.plist in Resources */ = {isa = PBXBuildFile; fileRef = B997EE102C3EBCB200DB0CEC /* ImpLinksList.plist */; };
+		B997EE152C3EBDB300DB0CEC /* ImpLinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997EE142C3EBDB300DB0CEC /* ImpLinkModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B997EDAC2C3E496C00DB0CEC /* HSIIDC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSIIDC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B997EDAF2C3E496C00DB0CEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B997EDB12C3E496C00DB0CEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B997EDB32C3E496C00DB0CEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B997EDB62C3E496C00DB0CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B997EDB82C3E496E00DB0CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B997EDBB2C3E496E00DB0CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B997EDBD2C3E496E00DB0CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B997EDCE2C3E546C00DB0CEC /* SlideImageCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideImageCVC.swift; sourceTree = "<group>"; };
+		B997EDCF2C3E546C00DB0CEC /* SlideImageCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlideImageCVC.xib; sourceTree = "<group>"; };
+		B997EDD42C3E569100DB0CEC /* SildeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SildeModel.swift; sourceTree = "<group>"; };
+		B997EDD72C3E57E700DB0CEC /* SlideCVWebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideCVWebServices.swift; sourceTree = "<group>"; };
+		B997EDDB2C3E5DC500DB0CEC /* slideItemList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = slideItemList.json; sourceTree = "<group>"; };
+		B997EDDF2C3E5F4A00DB0CEC /* SlideItemsDataSourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideItemsDataSourceDelegate.swift; sourceTree = "<group>"; };
+		B997EDE22C3E5FCA00DB0CEC /* AttributeFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributeFactory.swift; sourceTree = "<group>"; };
+		B997EDE32C3E5FCA00DB0CEC /* Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		B997EDE82C3E621000DB0CEC /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		B997EDE92C3E621000DB0CEC /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		B997EDEA2C3E621000DB0CEC /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		B997EDF12C3E94F700DB0CEC /* GridItemCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemCVC.swift; sourceTree = "<group>"; };
+		B997EDF22C3E94F700DB0CEC /* GridItemCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridItemCVC.xib; sourceTree = "<group>"; };
+		B997EDF72C3E951300DB0CEC /* GridItemList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GridItemList.plist; sourceTree = "<group>"; };
+		B997EDFA2C3E960600DB0CEC /* GridItemDataSourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemDataSourceDelegate.swift; sourceTree = "<group>"; };
+		B997EE002C3E972E00DB0CEC /* GridItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemModel.swift; sourceTree = "<group>"; };
+		B997EE072C3EA45200DB0CEC /* ImpLinkTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpLinkTVC.swift; sourceTree = "<group>"; };
+		B997EE082C3EA45200DB0CEC /* ImpLinkTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImpLinkTVC.xib; sourceTree = "<group>"; };
+		B997EE0C2C3EA59500DB0CEC /* ImpLinkDataSourceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpLinkDataSourceDelegate.swift; sourceTree = "<group>"; };
+		B997EE102C3EBCB200DB0CEC /* ImpLinksList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ImpLinksList.plist; sourceTree = "<group>"; };
+		B997EE142C3EBDB300DB0CEC /* ImpLinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpLinkModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +97,146 @@
 			isa = PBXGroup;
 			children = (
 				B997EDAF2C3E496C00DB0CEC /* AppDelegate.swift */,
-				B997EDB12C3E496C00DB0CEC /* SceneDelegate.swift */,
-				B997EDB32C3E496C00DB0CEC /* ViewController.swift */,
-				B997EDB52C3E496C00DB0CEC /* Main.storyboard */,
+				B997EDC92C3E542C00DB0CEC /* Model */,
+				B997EDC82C3E542000DB0CEC /* DataSourceDelegate */,
+				B997EDC72C3E541A00DB0CEC /* Cell */,
+				B997EDCB2C3E543B00DB0CEC /* Controller */,
+				B997EDCA2C3E543500DB0CEC /* View */,
+				B997EDE22C3E5FCA00DB0CEC /* AttributeFactory.swift */,
+				B997EDE32C3E5FCA00DB0CEC /* Navigation.swift */,
 				B997EDB82C3E496E00DB0CEC /* Assets.xcassets */,
 				B997EDBA2C3E496E00DB0CEC /* LaunchScreen.storyboard */,
 				B997EDBD2C3E496E00DB0CEC /* Info.plist */,
+				B997EDE72C3E621000DB0CEC /* Extensions */,
+				B997EE032C3EA0CB00DB0CEC /* PropertyList */,
+				B997EDDA2C3E5DAF00DB0CEC /* Json */,
 			);
 			path = HSIIDC;
+			sourceTree = "<group>";
+		};
+		B997EDC72C3E541A00DB0CEC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B997EE052C3EA18500DB0CEC /* ImpLinksTVC */,
+				B997EDF02C3E94DA00DB0CEC /* GridItemCVC */,
+				B997EDEF2C3E94CB00DB0CEC /* SlideItemCVC */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B997EDC82C3E542000DB0CEC /* DataSourceDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B997EE0C2C3EA59500DB0CEC /* ImpLinkDataSourceDelegate.swift */,
+				B997EDDF2C3E5F4A00DB0CEC /* SlideItemsDataSourceDelegate.swift */,
+				B997EDFA2C3E960600DB0CEC /* GridItemDataSourceDelegate.swift */,
+			);
+			path = DataSourceDelegate;
+			sourceTree = "<group>";
+		};
+		B997EDC92C3E542C00DB0CEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B997EE132C3EBD9F00DB0CEC /* ImpLink */,
+				B997EDFE2C3E965400DB0CEC /* GridItem */,
+				B997EDFD2C3E964B00DB0CEC /* SlideItem */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B997EDCA2C3E543500DB0CEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B997EDB52C3E496C00DB0CEC /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B997EDCB2C3E543B00DB0CEC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B997EDB32C3E496C00DB0CEC /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B997EDDA2C3E5DAF00DB0CEC /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				B997EDDB2C3E5DC500DB0CEC /* slideItemList.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		B997EDE72C3E621000DB0CEC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B997EDE82C3E621000DB0CEC /* UIViewControllerExtensions.swift */,
+				B997EDE92C3E621000DB0CEC /* StringExtension.swift */,
+				B997EDEA2C3E621000DB0CEC /* UIImageExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B997EDEF2C3E94CB00DB0CEC /* SlideItemCVC */ = {
+			isa = PBXGroup;
+			children = (
+				B997EDCE2C3E546C00DB0CEC /* SlideImageCVC.swift */,
+				B997EDCF2C3E546C00DB0CEC /* SlideImageCVC.xib */,
+			);
+			path = SlideItemCVC;
+			sourceTree = "<group>";
+		};
+		B997EDF02C3E94DA00DB0CEC /* GridItemCVC */ = {
+			isa = PBXGroup;
+			children = (
+				B997EDF12C3E94F700DB0CEC /* GridItemCVC.swift */,
+				B997EDF22C3E94F700DB0CEC /* GridItemCVC.xib */,
+			);
+			path = GridItemCVC;
+			sourceTree = "<group>";
+		};
+		B997EDFD2C3E964B00DB0CEC /* SlideItem */ = {
+			isa = PBXGroup;
+			children = (
+				B997EDD42C3E569100DB0CEC /* SildeModel.swift */,
+				B997EDD72C3E57E700DB0CEC /* SlideCVWebServices.swift */,
+			);
+			path = SlideItem;
+			sourceTree = "<group>";
+		};
+		B997EDFE2C3E965400DB0CEC /* GridItem */ = {
+			isa = PBXGroup;
+			children = (
+				B997EE002C3E972E00DB0CEC /* GridItemModel.swift */,
+			);
+			path = GridItem;
+			sourceTree = "<group>";
+		};
+		B997EE032C3EA0CB00DB0CEC /* PropertyList */ = {
+			isa = PBXGroup;
+			children = (
+				B997EDF72C3E951300DB0CEC /* GridItemList.plist */,
+				B997EE102C3EBCB200DB0CEC /* ImpLinksList.plist */,
+			);
+			path = PropertyList;
+			sourceTree = "<group>";
+		};
+		B997EE052C3EA18500DB0CEC /* ImpLinksTVC */ = {
+			isa = PBXGroup;
+			children = (
+				B997EE072C3EA45200DB0CEC /* ImpLinkTVC.swift */,
+				B997EE082C3EA45200DB0CEC /* ImpLinkTVC.xib */,
+			);
+			path = ImpLinksTVC;
+			sourceTree = "<group>";
+		};
+		B997EE132C3EBD9F00DB0CEC /* ImpLink */ = {
+			isa = PBXGroup;
+			children = (
+				B997EE142C3EBDB300DB0CEC /* ImpLinkModel.swift */,
+			);
+			path = ImpLink;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +296,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B997EE0A2C3EA45200DB0CEC /* ImpLinkTVC.xib in Resources */,
 				B997EDBC2C3E496E00DB0CEC /* LaunchScreen.storyboard in Resources */,
+				B997EE112C3EBCB200DB0CEC /* ImpLinksList.plist in Resources */,
+				B997EDF82C3E951300DB0CEC /* GridItemList.plist in Resources */,
 				B997EDB92C3E496E00DB0CEC /* Assets.xcassets in Resources */,
+				B997EDD12C3E546C00DB0CEC /* SlideImageCVC.xib in Resources */,
+				B997EDF42C3E94F700DB0CEC /* GridItemCVC.xib in Resources */,
+				B997EDDC2C3E5DC500DB0CEC /* slideItemList.json in Resources */,
 				B997EDB72C3E496C00DB0CEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +316,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				B997EDB42C3E496C00DB0CEC /* ViewController.swift in Sources */,
+				B997EDD82C3E57E700DB0CEC /* SlideCVWebServices.swift in Sources */,
+				B997EE0D2C3EA59500DB0CEC /* ImpLinkDataSourceDelegate.swift in Sources */,
+				B997EDEC2C3E621000DB0CEC /* StringExtension.swift in Sources */,
+				B997EDD52C3E569100DB0CEC /* SildeModel.swift in Sources */,
+				B997EE012C3E972E00DB0CEC /* GridItemModel.swift in Sources */,
+				B997EDFB2C3E960600DB0CEC /* GridItemDataSourceDelegate.swift in Sources */,
+				B997EDED2C3E621000DB0CEC /* UIImageExtension.swift in Sources */,
+				B997EDE52C3E5FCA00DB0CEC /* Navigation.swift in Sources */,
+				B997EE092C3EA45200DB0CEC /* ImpLinkTVC.swift in Sources */,
+				B997EE152C3EBDB300DB0CEC /* ImpLinkModel.swift in Sources */,
+				B997EDEB2C3E621000DB0CEC /* UIViewControllerExtensions.swift in Sources */,
+				B997EDE42C3E5FCA00DB0CEC /* AttributeFactory.swift in Sources */,
+				B997EDD02C3E546C00DB0CEC /* SlideImageCVC.swift in Sources */,
+				B997EDF32C3E94F700DB0CEC /* GridItemCVC.swift in Sources */,
+				B997EDE02C3E5F4A00DB0CEC /* SlideItemsDataSourceDelegate.swift in Sources */,
 				B997EDB02C3E496C00DB0CEC /* AppDelegate.swift in Sources */,
-				B997EDB22C3E496C00DB0CEC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +463,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -295,7 +487,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dhruv.HSIIDC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +505,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dhruv.HSIIDC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

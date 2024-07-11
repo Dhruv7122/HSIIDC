@@ -1,0 +1,62 @@
+{
+    "resultflag": 1,
+    "message": "Success message",
+    "SlideItems": [
+            {
+                "id":1,
+                "img":"img1",
+                "headline": "ISB CDO: Challenges of driving digitalisation in organisationsISB CDO: Challenges of driving digitalisation in organisationsISB CDO: Challenges of driving digitalisation in organisationsISB CDO: Challenges of driving digitalisation in organisationsISB CDO: Challenges of driving digitalisation in organisationsISB CDO: Challenges of driving digitalisation in organisations",
+                "date":"May 15, 2023"
+                
+            },
+            {
+                "id":2,
+                "img":"img2",
+                "headline": "ISB CDO: Challenges of ",
+                "date":"May 15, 2023"
+                
+            },
+            {
+                "id":3,
+                "img":"img3",
+                "headline": "ISB CDO: Challenges of driving digitalisation in organisations",
+                "date":"May 15, 2023"
+                
+            },
+            {
+                "id":4,
+                "img":"img4",
+                "headline": "ISB CDO: Challenges of driving digitalisation in organisations",
+                "date":"May 15, 2023"
+                
+            },
+            {
+                "id":5,
+                "img":"img1",
+                "headline": "ISB CDO: Challenges of driving digitalisation in organisations",
+                "date":"May 15, 2023"
+                
+            },
+            {
+                "id":6,
+                "img":"img2",
+                "headline": "ISB CDO: Challenges of driving digitalisation in organisations",
+                "date":"May 15, 2023"
+                
+            },
+            {
+                "id":7,
+                "img":"img3",
+                "headline": "ISB CDO: Challenges of driving digitalisation in organisations",
+                "date":"May 15, 2023"
+                
+            },
+            {
+                "id":8,
+                "img":"img4",
+                "headline": "ISB CDO: Challenges of driving digitalisation in organisations",
+                "date":"May 15, 2023"
+                
+            }
+    ]
+}
